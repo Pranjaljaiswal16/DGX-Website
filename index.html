@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Media-Query -->
+    <link rel="stylesheet" href="media-query.css" />
+    <!-- Bootstrap-icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Fontawesome-icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background-color: #139990"
+      id="Navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/Logo.png" class="img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-evenly"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+          <form
+            class="d-flex align-items-center"
+            id="search-form"
+            role="search"
+          >
+            <button class="btn text-white fs-3 px-4" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+            <i
+              class="fa-solid fa-bag-shopping fs-2 px-4 text-white"
+              id="icon-bag"
+            ></i>
+            <button
+              type="button"
+              class="btn btn-secondary text-white fw-light fs-4 p-3 px-4"
+              id="nav-btn"
+            >
+              Contact us
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- second-section -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-11">
+          <div class="d-flex justify-content-center">
+            <img
+              src="Images/Union.png"
+              class="img-fluid d-none d-md-block"
+              id="high-quality-img"
+            />
+            <h1 id="high-quality-text">THE HIGH-QUALITY PROFESSIONAL</h1>
+          </div>
+
+          <h3 id="high-quality-sound">SOUND SYSTEMS</h3>
+
+          <div class="d-flex">
+            <p class="text-center pt-4" id="sound-systems-p">
+              Whether you’re A music lover prodcast enthusiast or someone who
+              simply want to enjoy crytal - clear audio while on the go.our app
+              has got your coverd
+            </p>
+            <img
+              src="Images/earphone.png"
+              class="img-fluid mx-5 d-none d-md-block"
+              id="earphone-img"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- New Arrivals -->
+      <div class="row parent">
+        <div class="col-md-12">
+          <img
+            src="Images/Linked Path Group.png"
+            class="img-fluid"
+            id="arrival-img"
+          />
+
+          <button
+            type="button"
+            class="btn btn-secondary text-white fw-bold fs-4 p-3 border-0 child"
+            id="nav-btn"
+          >
+            MORE
+            <img src="Images/Right_arrow.png" class="mx-2 img-fluid" />
+          </button>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly pb-5">
+        <div class="col-md-3 col-11 mt-3">
+          <img src="Images/Group.png" class="img-fluid" />
+        </div>
+        <div class="col-md-3 col-11 mt-3">
+          <img src="Images/Group 1171275238.png" class="img-fluid" />
+        </div>
+        <div class="col-md-3 col-11 mt-3">
+          <img src="Images/Group3.png" class="img-fluid" />
+        </div>
+      </div>
+
+      <!-- BEST PRODUCT -->
+      <div class="row pb-5">
+        <div class="col-md-12">
+          <h3 class="display-6 text-center" id="best-product">BEST PRODUCT</h3>
+          <p class="text-center" id="product-text">
+            Speak boldly from the lectern podium of<br />
+            wisdom and truth.
+          </p>
+        </div>
+      </div>
+
+      <!-- CARDS -->
+
+      <div class="row justify-content-evenly">
+        <div class="col-md-3 col-7 mt-3">
+          <div class="card p-4 h-100" id="card">
+            <img
+              src="Images/Card1.png"
+              class="card-img-top card-one"
+              style="background-color: #139990"
+            />
+            <div class="card-body">
+              <h5 class="card-title" id="card-title">
+                Height Adjustable Lectern Podium
+              </h5>
+              <p class="card-text" id="card-text">
+                Constructed with a sturdy polymer-coated CRCA Steel Sheet
+                Material chassis.ensuring long-lasting durability.
+              </p>
+              <div class="d-flex justify-content-end">
+                <a href="#" class="btn rounded-pill fs-5" id="featured-btn-one"
+                  >featured</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-7 mt-3">
+          <div class="card p-4 h-100" id="card">
+            <img
+              src="Images/Card2.png"
+              class="card-img-top card-two"
+              style="background-color: #ff7500"
+            />
+            <div class="card-body">
+              <h5 class="card-title" id="card-title">Audio Lectern Podium</h5>
+              <p class="card-text" id="card-text">
+                Equipped with a robust 60W amplifier, one tweeter, three 5"
+                woofers, and a built-in microphone, the audio quality is
+                top-notch.
+              </p>
+              <div class="d-flex justify-content-end">
+                <a href="#" class="btn rounded-pill fs-5" id="featured-btn-two"
+                  >featured</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-7 mt-3">
+          <div class="card p-4 h-100" id="card">
+            <img src="Images/Card3.png" class="card-img-top card-three" />
+            <div class="card-body">
+              <h5 class="card-title" id="card-title">Online studio Setup</h5>
+              <p class="card-text" id="card-text">
+                Welcome to the future of online learning, where traditional
+                classrooms meet cutting-edge technology to create an immersive
+                and engaging educational environment.
+              </p>
+              <div class="d-flex justify-content-end">
+                <a
+                  href="#"
+                  class="btn rounded-pill fs-5"
+                  id="featured-btn-three"
+                  >featured</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner -->
+      <div class="row text-center">
+        <div class="col-md-12">
+          <img src="Images/Banner.png" class="img-fluid mt-5 mb-5" />
+        </div>
+      </div>
+
+      <!-- OUR STRENGTHS -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="display-6 text-center" id="best-product">OUR STRENGTHS</h3>
+        </div>
+      </div>
+
+      <!--STRENGTHS-CARDS  -->
+
+      <div class="container second-card-margin mb-5" id="card_center_Strengths">
+        <div class="row display_center">
+          <div class="col-md-4" id="Our-Strengths_one">
+            <div class="card-border1" style="width: 30rem">
+              <div class="card-body card_one">
+                <div class="icon-industry text-center">
+                  <img src="Images/industry 1.png" class="pt-4" />
+                </div>
+                <h5 class="card-title text-center pt-5">OEM</h5>
+                <p class="card-text-one text-center pt-2">
+                  Original equipment manufacturer of Interactive Flat Panels,
+                  Smart classroom solution manufacturer of Writing/display board
+                  podiums and led wall etc.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" id="Our-Strengths_two">
+            <div class="card-border2" style="width: 30rem">
+              <div class="card-body card_two">
+                <div class="icon-people text-center">
+                  <img src="Images/users1.png" class="pt-4" />
+                </div>
+                <h5 class="card-title text-center pt-5">GEM PORTAL</h5>
+                <p class="card-text-two text-center pt-2">
+                  Original equipment manufacturer of Interactive Flat Panels,
+                  Smart classroom solution manufacturer of Writing/display board
+                  podiums and led wall etc.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" id="Our-Strengths_three">
+            <div class="card-border3" style="width: 30rem">
+              <div class="card-body card_three">
+                <div class="icon-house text-center">
+                  <!-- <i class="fa-solid fa-house"></i> -->
+                  <img src="Images/revolution 1.png" class="pt-4" />
+                </div>
+                <h5 class="card-title text-center pt-5">
+                  IN-HOUSE MANUFACTURING
+                </h5>
+                <p class="card-text-three text-center pt-2">
+                  In-house manufacturing with full-fledged R&D team.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5" id="Our-Strengths_four">
+            <div class="card-border4" style="width: 30rem">
+              <div class="card-body card_four">
+                <div class="icon-branch text-center">
+                  <!-- <i class="fa-solid fa-code-branch"></i> -->
+                  <img src="Images/earth.png" class="pt-4" />
+                </div>
+                <h5 class="card-title text-center pt-5">BRANCHES</h5>
+                <p class="card-text-four text-center pt-2">
+                  Only company in this segment to have 3 branch offices with
+                  functional experience centers as well as service centers in
+                  India.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5" id="Our-Strengths_five">
+            <div class="card-border5" style="width: 30rem">
+              <div class="card-body card_five">
+                <div class="icon-person text-center">
+                  <!-- <i class="bi bi-person-circle"></i> -->
+                  <img src="Images/Engineer.png" class="pt-4" />
+                </div>
+                <h5 class="card-title text-center pt-5">SERVICE ENGINEERS</h5>
+                <p class="card-text-five text-center pt-2">
+                  Direct Service Engineers spanned<br />across India.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project-Delivery -->
+      
+      
+
+    <div class="container-fluid " id="Project">
+      <div class="row " id="project-delivered">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+              <img src="Images/Group 1171274987.png" alt="logo" />
+              <div class="row" id="imgleft_bottom">
+                <div class="col-md-6">
+                  <img src="Images/Group 77075.png" alt="logo" id="leftimg_move" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+              <img src="Images/Group 77075.png" alt="logo" />
+              <div class="row" id="rightimg_bottom">
+                <div class="col-md-6">
+                  <img
+                    src="Images/Group 1171274987.png"
+                    alt="logo"
+                    id="rightimg_move"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+          <div class="col-md-3 border_right">
+            <h2 class="font_number">1000+</h2>
+            <p class="project-delivered-font pt-4">Project Delivered</p>
+          </div>
+          <div class="col-md-3 border_right">
+            <h2 class="font_number">1000+</h2>
+            <p class="project-delivered-font pt-4 ">Tech experts On-board</p>
+          </div>
+          <div class="col-md-3">
+            <h2 class="font_number">$950M</h2>
+            <p class="project-delivered-font pt-4 ">Investment Raised for Startups</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+      <!-- GLOBAL PRESENCE -->
+
+      <div class="row mt-5" id="BGColor-Global">
+        <div class="col-md-8 col-10 d-flex align-items-center">
+          <div class="earth">
+            <img src="Images/OBJECTS.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-md-4 col-11">
+          <h3 class="text-white text-start" id="global-heading">
+            GLOBAL PRESENCE
+          </h3>
+
+          <div id="global-text">
+            <p>
+              Heinrich believes that opportunities are everywhere. Over the past
+              decades, We have Designed, Delivered & Executed life safety
+              products that have made us the world's leading manufacturer.
+            </p>
+
+            <p>
+              We have completed 3500+ Project Installations around the world in
+              industries such as Railways, Metros, Airports, Corporate, Malls,
+              Tunnels, Conference Rooms, Hotels, Hospitals, Education,
+              Auditoriums and so on.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- VISSION MISSION -->
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-11">
+          <img src="Images/Mask group.png" class="img-fluid" />
+        </div>
+        <div class="col-md-5 col-11">
+          <h3 class="display-6 text-start" id="Vission">VISION & MISSION</h3>
+
+          <div id="vision_font">
+            <p>
+              The <span id="heinrich_color">HEINRICH</span> brand to become
+              number ONE in every market.
+            </p>
+            <p>
+              We serve and revolutionize this company to have the strengths of a
+              big company i.e., a leader of quality products, customer service,
+              and innovation for tomorrow.
+            </p>
+            <p>
+              The <span id="heinrich_color">HEINRICH</span> strives to achieve
+              EXCELLENCE POSITION in setting the leading standards in Life
+              Safety and Automation through top Quality products and Service.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPANY VALUE -->
+      <div class="row mt-5 mb-5" id="company-value">
+        <div class="col-md-12">
+          <h3 class="display-6 text-center mt-5" id="company-heading">
+            COMPANY VALUE
+          </h3>
+          <p class="text-center pt-4" id="company-para">
+            The HEINRICH family stand by its value, taking quality, service
+            respect loyalty and commitment to customer satisfaction seriously,
+            delivering leadership to our customers and suppliers and valuing the
+            HEINRICH brand as well as all valuing the HEINRICH brand as all
+            HEINRICH family members.
+          </p>
+
+          <div class="row pt-4 pb-4">
+            <div class="col-md-12 text-center">
+              <img
+                src="Images/companyvaluesection.png"
+                class="img-fluid w-75"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CERTIFICATES -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="display-6 text-center" id="Certificate">CERTIFICATES</h3>
+          <p class="text-center mt-4" id="certificate-para">
+            TECHNODGX DIGITAL PRIVATE LIMITED is pleased to announce quality
+            Certification that recognize our ongoing efforts to provide
+            high-quality products and solu
+          </p>
+          <!-- <div class="mt-4 bg-danger " id="img-container">
+            <img src="Images/Group 1171275262.png" class="img-fluid"/>
+            </div>
+            <div id="img-container">
+              <img src="Images/image 4760.png" class="img-fluid" />
+            </div>
+
+          </div> -->
+
+          <div class="container-fluid mt-4">
+            <div class="row justify-content-center">
+              <div class="col-md-7 col-11">
+                <img
+                  src="Images/Group 1171275262.png"
+                  class="img-fluid"
+                  alt="Image 1"
+                />
+              </div>
+              <div class="col-md-3 col-11 d-flex align-items-center">
+                <img
+                  src="Images/image 4760.png"
+                  class="img-fluid"
+                  alt="Image 2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LOGO-2 -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-10 mt-4">
+            <div class="image-container">
+              <img src="Images/logo1.png" class="img-fluid" alt="Image 1" />
+            </div>
+          </div>
+          <div class="col-md-3 col-10 mt-4">
+            <div class="image-container">
+              <img src="Images/logo2.png" class="img-fluid" alt="Image 2" />
+            </div>
+          </div>
+          <div class="col-md-3 col-10 mt-4">
+            <div class="image-container">
+              <img src="Images/logo3.png" class="img-fluid" alt="Image 3" />
+            </div>
+          </div>
+          <div class="col-md-3 col-10 mt-4">
+            <div class="image-container">
+              <img src="Images/logo4.png" class="img-fluid" alt="Image 4" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER-SECTION -->
+
+      <div class="container-fluid mt-5" id="footer">
+        <div class="row">
+          <div class="col-md-4">
+            <div>
+              <p class="fw-bold text-center pt-5 m-0 footer_heading">
+                TECHNODGX DIGITAL PRIVATE LIMITED
+              </p>
+              <span class="text_light">(Heinrich Group of Company)</span>
+            </div>
+
+            <p class="footer_font mt-4">
+              HEINRICH’s design expert team ensures that customer requirements
+              are central to each system by selecting the most suitable products
+              for the project.
+            </p>
+
+            <div class="scanners_img d-flex align-items-center">
+              <img src="Images/scanner.png" class="img-fluid" />
+              <div class="appstore_img mx-5">
+                <img
+                  src="Images/download-on-the-app-store-apple-copy.png"
+                  class="mb-2 img-fluid"
+                />
+                <img
+                  src="Images/google-play-badge-copy.png"
+                  class="d-block img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-1">
+            <div>
+              <p class="fw-bold text-center pt-5 footer_headingsecond">
+                Resources
+              </p>
+              <ul class="second-list mt-5">
+                <li class="p-1 pt-4">
+                  <a href="https://www.google.com/">Product</a>
+                </li>
+                <li class="p-1 pt-4">
+                  <a href="https://www.google.com/">About Us</a>
+                </li>
+                <li class="p-1 pt-4">
+                  <a href="https://www.google.com/">Careers</a>
+                </li>
+                <li class="p-1 pt-4">
+                  <a href="https://www.google.com/">Blogs</a>
+                </li>
+                <li class="p-1 pt-4">
+                  <a href="https://www.google.com/">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <p class="fw-bold text-center pt-5 footer_headingsecond">
+                Policy
+              </p>
+
+              <ul class="second-list mt-5">
+                <li class="pt-4">
+                  <a href="https://www.google.com/">Terms & Conditions</a>
+                </li>
+                <li class="pt-4">
+                  <a href="https://www.google.com/">Privacy</a>
+                </li>
+                <li class="pt-4">
+                  <a href="https://www.google.com/">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <p class="fw-bold text-center pt-5 footer_headingsecond">
+                Our Office
+              </p>
+
+              <ul class="second-list mt-5">
+                <li class="pt-4">
+                  <a href="https://www.google.com/"
+                    >United kingdom - Heinrich Limited</a
+                  >
+                </li>
+                <li class="pt-4">
+                  <a href="https://www.google.com/"
+                    >india- Heinrich Corporation Limited</a
+                  >
+                </li>
+                <li class="pt-4">
+                  <a href="https://www.google.com/"
+                    >Hong Kong- Heinrich limited
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div>
+              <p class="fw-bold text-center pt-5 footer_headingsecond">
+                Talk to us
+              </p>
+
+              <ul class="second-list mt-5">
+                <li class="p-4">
+                  <a href="https://www.google.com/"
+                    ><i class="bi bi-envelope px-2"></i
+                    >INFO@HEINRICHLIMITED.<br />COM</a
+                  >
+                </li>
+                <li class="p-1">
+                  <a href="https://www.google.com/"
+                    ><i class="bi bi-telephone-outbound px-3"></i>1800 419
+                    1117</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="row social-icons">
+              <div class="col-md-3 mt-4">
+                <a href="https://www.facebook.com/" class="text-decoration-none"
+                  ><i class="fa-brands fa-facebook-f icon_facebook"></i
+                ></a>
+              </div>
+              <div class="col-md-3 mt-4">
+                <a href="https://in.linkedin.com/" class="text-decoration-none"
+                  ><i class="fa-brands fa-linkedin-in icon_linkedin"></i
+                ></a>
+              </div>
+              <div class="col-md-3 mt-4">
+                <a
+                  href="https://twitter.com/?lang=en"
+                  class="text-decoration-none"
+                  ><i class="fa-brands fa-twitter icon_twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <footer class="text-center py-3">
+            <div class="container-fluid">
+              <hr class="my-5" />
+              <p class="footer_lasttext">
+                copyright © 2020-24 TECHNODGX DIGITAL Pvt Ltd
+              </p>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+      <!-- container-end -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

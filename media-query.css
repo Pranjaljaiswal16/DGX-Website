@@ -1,0 +1,220 @@
+
+/* Media Query */
+
+@media only screen and (max-width: 1300px) {
+    #high-quality-sound {
+      font-size: 4rem;
+      font-weight: 800;
+      width: 45%;
+      margin-top: 14px;
+    }
+    #card {
+      border-radius: 38px !important;
+      width: 32rem !important;
+      margin-left: -28px;
+    }
+  }
+  
+  @media only screen and (max-width: 936px) {
+    #high-quality-text {
+      font-size: 3.6rem;
+      font-weight: 800;
+      position: relative;
+      left: -23px;
+      margin-top: 30px;
+    }
+    #high-quality-sound {
+      font-size: 3.9rem;
+  
+      width: 52%;
+      margin-top: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 769px) {
+    #search-form {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    #card {
+      border-radius: 38px !important;
+      width: 25rem !important;
+      height: 60vh !important;
+      margin-left: -4vw;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    #high-quality-text {
+      font-size: 3.2rem;
+      font-weight: 800;
+      position: relative;
+      left: 20px;
+      margin-top: 20px;
+    }
+  
+    #high-quality-sound {
+      white-space: nowrap;
+      font-size: 3.2rem;
+      width: 90%;
+      margin-top: unset;
+    }
+  
+    #search-form {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+    #arrival-img {
+      width: 25%;
+    }
+    .child {
+      position: absolute;
+      left: 35vw;
+    }
+    /* CARDS */
+    img.card-one {
+      height: 28vh;
+      border-radius: 31px;
+    }
+    #featured-btn-one {
+      margin-top: -34px;
+    }
+  
+    img.card-two {
+      height: 24vh;
+      border-radius: 31px;
+    }
+    #featured-btn-two {
+      margin-top: -32px;
+      /* display: none; */
+    }
+    img.card-three {
+      height: 28vh;
+      border-radius: 31px;
+    }
+    #featured-btn-three {
+      margin-top: -8px;
+    }
+    /* Strengths-Cards */
+  
+    #Cards {
+      display: block;
+    }
+    .card_one {
+      height: 65vw !important;
+    }
+    .card_two {
+      height: 65vw !important;
+      margin-top: 10px;
+    }
+    .card_three {
+      height: 65vw !important;
+      margin-top: 10px;
+    }
+    .card_four {
+      height: 62vw !important;
+    }
+    .card_five {
+      height: 62vw !important;
+    }
+    img.card-img-one {
+      height: 45vw !important;
+    }
+    img.card-img-two {
+      height: 45vw !important;
+    }
+    img.card-img-three {
+      height: 45vw !important;
+    }
+  
+    #Our-Strengths_one {
+      padding-inline: 0px;
+      /* margin-right: 30px; */
+    
+    }
+  
+    #Our-Strengths_two {
+      padding-inline: 45px;
+      margin-top: 20px;
+      /* margin-right: 30px; */
+    }
+    #Our-Strengths_three {
+      padding-inline: 90px;
+      margin-top: 20px;
+      /* margin-right: 30px; */
+    }
+    #Our-Strengths_four {
+      padding-inline: 46px;
+      /* margin-right: 30px; */
+    }
+    #Our-Strengths_five {
+      padding-inline: 90px;
+      /* margin-right: 30px; */
+    }
+    /* FOOTER */
+    .social-icons {
+      position: absolute;
+      margin-inline: 3px;
+      
+  }
+  .icon_facebook{
+    font-size: 6vw;
+    text-align: center;
+    padding-top: 3vw;
+  
+    }
+    .icon_linkedin{
+      font-size: 6vw;
+    text-align: center;
+    padding-top: 3vw;
+    }
+    .icon_twitter{
+      font-size: 6vw;
+    text-align: center;
+    padding-top: 4vw;
+    }
+    .scanners_img {
+      padding-inline: 0vw;
+      position: absolute;
+      left: 72vw;
+      bottom: 28vw;
+  }
+  
+  #Project {
+    display: none;
+  }
+}
+
+
+/* @media only screen and (max-width: 430px){
+
+  #Our-Strengths_one {
+   margin-right: -3vw;
+  
+  }
+
+  #Our-Strengths_two {
+    padding-inline: 45px;
+    margin-top: 20px;
+    margin-right: -3vw;
+    
+  }
+  #Our-Strengths_three {
+    padding-inline: 90px;
+    margin-top: 20px;
+    margin-right: -3vw;
+  }
+  #Our-Strengths_four {
+    padding-inline: 46px;
+    margin-right: -3vw;
+  }
+  #Our-Strengths_five {
+    padding-inline: 90px;
+    margin-right: -3vw;
+  }
+
+}
+   */

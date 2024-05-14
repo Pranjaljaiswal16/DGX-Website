@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+}
+
+/* Navbar */
+
+#Navbar {
+  padding: 0 6%;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 1.6rem;
+  margin-inline: 10px;
+}
+
+#nav-btn {
+  background-color: #ff7500 !important;
+  border-radius: 9px;
+}
+#navbarSupportedContent{
+  margin-left: 10vw;
+}
+
+/* HIGH-QUALITY- */
+
+#high-quality-img {
+  margin-top: 30px;
+}
+
+#high-quality-text {
+  font-size: 4.8rem;
+  font-weight: 800;
+  position: relative;
+  left: -23px;
+  margin-top: 30px;
+}
+#high-quality-sound {
+  font-size: 4.8rem;
+  font-weight: 800;
+  color: #169d84;
+  border: 2px solid black;
+  width: 35%;
+  margin: 0 auto;
+  border-radius: 50px;
+  text-align: center;
+}
+#sound-systems-p {
+  font-size: 1.6rem !important;
+  width: 80%;
+  padding-left: 20vw;
+}
+#earphone-img {
+  margin-top: -16px;
+}
+
+/* New Arrivals */
+#arrival-img {
+  margin-top: -3vw;
+  margin-left: 6vw;
+}
+
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  left: 45vw;
+}
+
+/* BEST PRODUCT */
+#best-product {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-decoration: wavy;
+}
+#product-text {
+  font-size: 1.6rem;
+}
+
+/* CARDS */
+
+#card {
+  border-radius: 38px !important;
+  width: 32rem !important;
+}
+#card-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+#card-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+img.card-one {
+  height: 33vh;
+  border-radius: 38px;
+}
+img.card-two {
+  height: 33vh;
+  border-radius: 38px;
+}
+img.card-three {
+  height: 33vh;
+  border-radius: 38px;
+}
+
+#featured-btn-one {
+  background-color: #ff7500 !important;
+  color: white;
+  margin-top: 20px;
+}
+#featured-btn-two {
+  background-color: #ff7500 !important;
+  color: white;
+  margin-top: 48px;
+}
+#featured-btn-three {
+  background-color: #ff7500 !important;
+  color: white;
+}
+
+/*  STRENGTHS CARDS */
+
+.card_one {
+  background-color: #bde0dd91;
+
+  height: 22vw !important;
+  border-radius: 20px;
+}
+.card-text-one {
+  font-size: 1.4rem;
+}
+.card-border1 {
+  border-radius: 20px !important;
+  margin-left: 45px;
+}
+
+.card_two {
+  background-color: #bde0dd91;
+  border: 2px solid #caf5f2ae;
+  height: 22vw !important;
+  border-radius: 20px;
+}
+.card-text-two {
+  font-size: 1.4rem;
+}
+.card-border2 {
+  border-radius: 20px !important;
+}
+
+.card_three {
+  height: 14vw;
+  background-color: #bde0dd91;
+  border: 2px solid #caf5f2ae;
+  height: 22vw !important;
+  border-radius: 20px;
+}
+.card-text-three {
+  font-size: 1.4rem;
+}
+.card-border3 {
+  border-radius: 20px !important;
+  margin-left: -45px !important;
+}
+.card_four {
+  background-color: #bde0dd91;
+  border: 2px solid #caf5f2ae;
+  height: 22vw !important;
+  border-radius: 20px;
+}
+.card-text-four {
+  font-size: 1.4rem;
+}
+.card-border4 {
+  border-radius: 20px !important;
+}
+
+.card_five {
+  height: 22vw;
+  border-radius: 20px;
+  background-color: #bde0dd91;
+  border: 2px solid #caf5f2ae;
+}
+.card-text-five {
+  font-size: 1.4rem;
+}
+.card-border5 {
+  border-radius: 20px !important;
+  margin-left: -45px;
+}
+
+.display_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+}
+.second-card-margin {
+  margin-top: 15px;
+}
+
+/*PROJECT-DELIVERED  */
+
+#project-delivered {
+  width: 89%;
+  margin: 0 auto;
+  
+  height: 21vw;
+  background-color: #139990;
+  border-radius: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+
+#leftimg_move {
+  position: absolute;
+  top: 18vw;
+  left: 10vw;
+}
+
+#rightimg_bottom {
+  position: absolute;
+  top: 18vw;
+  right: 18vw;
+}
+.font_number {
+  font-size: 4rem;
+  color: #fff;
+}
+.project-delivered-font {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+.project-delivered-center {
+  display: flex;
+  justify-content: center;
+}
+.border_right {
+  border-right: 2px solid #fff;
+  padding-bottom: 5vw;
+  height: 9vw;
+}
+
+/* GLOBAL PRESENCE */
+#BGColor-Global {
+  border-radius: 20px;
+  width: 88%;
+  height: 75vh;
+  background-color: #139990;
+  margin: 0 auto;
+}
+#global-heading {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35px;
+}
+#global-text {
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 30px;
+}
+
+/* VISSION & MISSION */
+#Vission {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-decoration: wavy;
+}
+#vision_font {
+  font-size: 2rem;
+  font-weight: 400;
+}
+span#heinrich_color {
+  color: #0eb8adec;
+  font-weight: 500;
+}
+
+/* COMPANY VALUE */
+
+#company-value {
+  border-radius: 16px;
+  width: 88%;
+  /* height: 95vh; */
+  height: auto;
+  background-color: #139990;
+  margin: 0 auto;
+}
+
+#company-heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-decoration: wavy;
+  color: white;
+}
+#company-para {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Certificate */
+
+#Certificate {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-decoration: wavy;
+}
+
+#certificate-para {
+  font-size: 2.2rem;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+}
+/* FOOTER-SECTION */
+
+#footer {
+  width: 100%;
+  height: auto;
+  /* max-height: 75%; */
+  background-image: linear-gradient(to bottom right, #fff3e7, #099999);
+  position: relative;
+  /* margin-top: 10vw; */
+}
+.footer_heading {
+  font-size: 2rem;
+  /* padding-inline: 2vw; */
+}
+span.text_light {
+  font-size: 1.6rem;
+  opacity: 0.5;
+  padding-inline: 32px;
+}
+.footer_font {
+  font-size: 1.5rem;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.scanners_img {
+  padding-inline: 3vw;
+  position: absolute;
+  bottom: 10vw;
+}
+
+.footer_headingsecond {
+  font-size: 1.5rem;
+}
+.second-list {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-inline: 0.8rem !important;
+
+  /* white-space: nowrap !important; */
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.footer_lasttext {
+  font-size: 1.5rem;
+  opacity: 0.4;
+}
+
+/* icons */
+.social-icons {
+  position: absolute;
+  margin-inline: 70px;
+  bottom: 145px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon_facebook {
+  height: 50px;
+  width: 50px;
+  font-size: 2vw;
+
+  background-color: #fff;
+  border-radius: 50%;
+  color: goldenrod;
+  text-align: center;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.icon_linkedin {
+  height: 50px;
+  width: 50px;
+  font-size: 2vw;
+
+  background-color: #fff;
+  border-radius: 50%;
+  color: goldenrod;
+  text-align: center;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.icon_twitter {
+  height: 50px;
+  width: 50px;
+  font-size: 2vw;
+
+  background-color: #fff;
+  border-radius: 50%;
+  color: goldenrod;
+  text-align: center;
+  padding-top: 12px;
+  cursor: pointer;
+}
